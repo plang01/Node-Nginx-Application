@@ -1,0 +1,93 @@
+<!--
+    Name: Phat Lang
+    Date Created: 5/18/23
+    GUI assignment 1 creating my first webpage using various CSS properties
+    Copyright (c) 2023 by Phat. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+    updated by PL on May 23, 2023 at 11:25 AM
+    Overview: Create a website portfolio using html and css, it contains my background and projects I've done.
+    Citations/References: I used W3school to lookup various concepts and copy codes from a website "https://cssgradient.io/" to generate background color. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Projects</title>
+</head>
+
+<!-- Page Content -->
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html"><h1>Phat Lang</h1></a></li>
+            <li><a href="aboutme.html"><h4>About Me</h4></a></li>
+            <li><a href="project.html"><h4>Project</h4></a></li>
+            <li><a href="https://github.com/plang01/plang01.github.io"><img src="images/git.png" alt="github"></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!"></a> 
+            </li> 
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Projects -->
+    <div class="container4">
+        <!-- Project 1 -->
+        <div class="project_block">
+            <h2> Image Encryption</h2>
+            <img src="images/encryption_output.png" alt="project">
+            <p>
+                Construct a Fibonacci feedback shift register class to encrypt and decrypt digital picture 
+                given a 16 digit bit. Then utilize SFML library to render in the image.
+            </p>
+        </div>
+        <!-- Project 2 -->
+        <div class="project_block2">
+            <h2> Fractal Sierpiński Pattern </h2>
+            <img src="images/fractal.png" alt="fractal">
+            <p>
+                Start with the base, calculate the postion and size of smaller triangles, then recursively draw them according to the user's input.
+            </p>
+        </div>
+        <!-- project 3 -->
+        <div class="project_block3">
+            <h2> Solar System Simulation </h2>
+            <img src="images/planets.png" alt="planets">
+            <p>
+                Given a file that contains informations(coordinate, velocity, mass) of all the planets. Develop a program to read and store 
+                all the contents and construct a solar system model. In the next step, calculate new position using Newton's Law and simulate orbit animation by utilizing leapfrog scheme. 
+            </p>
+        </div>
+        <!-- project 4 -->
+        <div class="project_block4">
+            <h2> Markov Model Chain</h2>
+            <img src="images/Markov_output.png" alt="markov">
+            <p>
+                Generate random readable text from Markov Model Chain. The program will take in two command line arguments: k-order(accuracy) and character lengths.   
+            </p>
+        </div>
+        <!-- Project 5 -->
+        <div class="project_block5">
+            <h2> Kronos Time Parsing</h2>
+            <img src="images/log_output.png" alt="log">
+            <p> 
+                Apply REGEX library to develop a program that scan through Kronos machine log files. It then produces a file of type .rpt that track the date and time of server started,
+                and the status of the channel. If fail, output an error message in the log. 
+            </p>
+        </div>
+    </div>
+</body>
+</html>

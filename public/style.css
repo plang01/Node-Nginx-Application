@@ -1,0 +1,256 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Overall layout of the Portflio */
+body {
+    background-color: rgb(46, 42, 42);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+
+/* Navigation Bar */
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+/* Navigation Link */
+nav li {
+    display: inline;
+}
+
+nav li h1,
+li h4 {
+    display: inline;
+    padding-right: 70px;
+    padding-bottom: 100px;
+    max-width: 100%;
+    width: auto;
+    padding-bottom: 5px;
+}
+
+nav li a img {
+    vertical-align: bottom;
+    max-width: 100%;
+    width: auto;
+}
+
+nav a,
+a:visited {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+/* Introduction */
+.container {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top right, blue, purple, blue);
+    padding-top: 100px;
+    height: 100vh;
+}
+
+.Homepage {
+    width: 80%;
+}
+
+/* Portrait */
+.Homepage img {
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+    float: left;
+}
+
+/* Introduction Page */
+.text {
+    color: white;
+    margin-right: 0px;
+    margin-left: 550px;
+    border-width: 100px;
+}
+
+.text h2 {
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+/* About Me */
+.container2 {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, cyan, blue, purple);
+    padding-top: 100px;
+}
+
+.Contents {
+    width: 80%;
+}
+
+/* avatar */
+.Contents img {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+    float: left;
+}
+
+.biography {
+    color: white;
+    margin-left: 300px;
+    border-width: 100px;
+}
+
+/* SKills/Courses */
+.container3 {
+    max-width: 100%;
+    height: auto;
+    width: 250px;
+    float: left;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    background: powderblue;
+    background-image: linear-gradient(to right, cyan, blue, purple);
+    padding-top: 30px;
+    font-size: 30px;
+    height: 100vh;
+}
+
+table th {
+    width: 500px;
+}
+
+table td {
+    margin-left: 500px;
+    color: white;
+    text-align: center
+}
+
+/* Projects Page*/
+.container4 {
+    display: flex;
+    background-image: linear-gradient(to right, cyan, blue, purple);
+    overflow-x: auto;
+    height: 100vh;
+}
+
+.container4 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: white
+}
+
+.container4 p {
+    font-size: 20px;
+    padding-top: 8%;
+    text-align: center;
+    padding-left: 5%;
+}
+
+/* Projects Display*/
+.project_block {
+    padding-block-end: 100px;
+    ;
+    width: 480px;
+    flex-shrink: 0;
+    padding-bottom: 4%;
+    background: rgb(7, 33, 56);
+    background: linear-gradient(90deg, rgba(7, 33, 56, 1) 0%, rgba(96, 209, 215, 1) 0%, rgba(2, 16, 103, 1) 0%, rgba(12, 108, 126, 1) 50%, rgba(58, 225, 244, 1) 100%);
+}
+
+.project_block img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    height: auto;
+}
+
+.project_block2 {
+    padding-block-end: 100px;
+    ;
+    width: 480px;
+    flex-shrink: 0;
+    background: rgb(58, 225, 244, 1);
+    background: linear-gradient(90deg, rgba(58, 225, 244, 1) 0%, rgba(109, 18, 224, 1) 50%, rgba(106, 12, 126, 1) 100%);
+}
+
+.project_block2 img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    height: 415px;
+}
+
+.project_block3 {
+    padding-block-end: 100px;
+    ;
+    width: 480px;
+    flex-shrink: 0;
+    background: rgb(106, 12, 126);
+    background: linear-gradient(90deg, rgba(106, 12, 126, 1) 9%, rgba(91, 222, 117, 1) 50%, rgba(224, 18, 187, 1) 100%);
+}
+
+.project_block3 img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+    height: 415px;
+}
+
+.project_block4 {
+    padding-block-end: 100px;
+    ;
+    width: 480px;
+    flex-shrink: 0;
+    background: rgb(224, 18, 187);
+    background: linear-gradient(90deg, rgba(224, 18, 187, 1) 0%, rgba(222, 197, 91, 1) 50%, rgba(241, 124, 118, 1) 100%);
+}
+
+.project_block4 img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30%;
+    height: auto;
+}
+
+.project_block5 {
+    padding-block-end: 100px;
+    ;
+    width: 480px;
+    flex-shrink: 0;
+    background: rgba(241, 124, 118, 1);
+    background: linear-gradient(90deg, rgba(241, 124, 118, 1) 0%, rgba(206, 241, 24, 1) 100%);
+}
+
+.project_block5 img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40%;
+    height: auto;
+}

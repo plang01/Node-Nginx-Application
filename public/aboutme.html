@@ -1,0 +1,97 @@
+<!--
+ Name: Phat Lang
+    Date Created: 5/18/23
+    GUI assignment 1 creating my first webpage using various CSS properties
+    Copyright (c) 2023 by Phat. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+    updated by PL on May 23, 2023 at 11:25 AM
+    Overview: Create a website portfolio using html and css, it contains my background and projects I've done.
+    Citations/References: I used W3school to lookup various concepts and copy codes from a website "https://cssgradient.io/" to generate background color. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>About Me</title>
+</head>
+
+<!-- Page Content -->
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html"><h1>Phat Lang</h1></a></li>
+            <li><a href="aboutme.html"><h4>About Me</h4></a></li>
+            <li><a href="project.html"><h4>Project</h4></a></li>
+            <li><a href="https://github.com/plang01/plang01.github.io"><img src="images/git.png" alt="github"></a></li>
+        </ul>
+
+        <ul>
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="Valid CSS!"></a> 
+            </li> 
+            <li><a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="https://jigsaw.w3.org/css-validator/images/vcss-blue"
+                    alt="Valid CSS!"></a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Contents -->
+    <div class="container2"> 
+        <div class="Contents">
+            <img src="images/avatar.png" alt="avatar">
+            <div class="biography">
+                <h2>Biography</h2>
+                <p> <br>Born and raised in Vietnam before immigrated to the U.S at the age of 11. Additionaly, I have ancestry in China,
+                    hence, I'm fluent in both Vietnamese, English and speak a bit of Cantonese. I developed an interest in computational 
+                    study when I took an introductory computing course in high school. My goal is to become a good develop by 
+                    taking college courses as well as honing these skills in my own free time.   </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Table Implementation -->
+    <table>
+        <tr>
+            <th> Languages</th>
+            <th> Relevant Courses Taken</th>
+        </tr>   
+        <tr>
+            <td> C++</td>
+            <td> Computing I-IV</td>
+        </tr> 
+        <tr>
+            <td> C</td>
+            <td> Discrete I-II</td>
+        </tr>
+        <tr> 
+            <td> Java</td>
+            <td> Calculus I-III</td>
+        </tr>
+        <tr>
+            <td> Ocaml</td>
+            <td> Logic Design</td>
+        </tr>
+        <tr>
+            <td> HTML</td>
+            <td>Organization of Programming Languages</td>
+        </tr>
+        <tr>
+            <td>CSS</td> 
+            <td> Computer Architecture</td>
+        </tr>
+        <tr>
+            <td>Python</td> 
+            <td> Operating System</td>
+        </tr>
+        <tr><td></td> <td> Foundation</td></tr>
+        <tr><td></td> <td> Analysis of Algorithms</td></tr>
+    </table>
+</body>
+</html>
