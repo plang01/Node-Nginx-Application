@@ -1,4 +1,5 @@
-Ngnix is known as a web server, the proper technical term would be “reverse proxy”. It serves as a middleman between the browser and the web servers that process requests and responses. In circumstances where multiple servers exist to handle bottlenecks, Nginx functions as load balancer and redirects traffic to the server with least active connections. 
+	Ngnix is known as a web server, the proper technical term would be “reverse proxy”. It serves as a middleman between the browser and the web servers that process requests and responses. In circumstances where multiple servers exist to handle bottlenecks, Nginx functions as load balancer and redirects traffic to the server with least active connections. 
+
 	Node.js is a run-time environment used to create node-based web applications in javascript, but it prones to slow performance with high traffic across multiple servers and difficulty serving static contents from javascript. This is why Nginx is a great tool accompanying Node.js  
 
 Setting up Nginx
